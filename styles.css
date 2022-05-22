@@ -11,7 +11,7 @@
     --color-black: #000000;
     --color-grey0: #575757;
     --color-grey1: #adadad;
-    --color-grey2: #2e2c2c;
+    --color-grey2: #161313;
     --color-grey3: #a0a0a0;
     --color-grey4: #1d1b1b;
     --color-grey5: #525252;
@@ -490,16 +490,17 @@ section{
                 font-size: 1.5rem;
                 margin-bottom: .7rem;
                 transition: all .4s ease-in-out;
+                color: var(--color-primary);
                 cursor: pointer;
-            &:hover{
-                color:var(--color-secondary);
+                &:hover{
+                    color:var(--color-secondary);
+                }
             }
-        }
-        p{
-            color:var(--color-grey2);
-            line-height: 2rem;
-            padding-bottom: 1rem;
-        }
+             p{
+                line-height: 2rem;
+                padding-bottom: 1rem;
+                color: var(--color-white);
+            }
         }
     }
 }
@@ -734,16 +735,43 @@ section{
                     width: 20%;
                 }
                 .r{
-                    width: 30%;
+                    width: 40%;
                 }
                 .javascript{
                     width: 15%;
                 }
                 .python{
-                    width: 10%;
+                    width: 30%;
                 }
                 .mysql{
                     width: 90%;
+                }
+                .noSql{
+                    width: 40%;
+                }
+                .react{
+                    width: 20%;
+                }
+                .tableau{
+                    width: 50%;
+                }
+                .power{
+                    width: 10%;
+                }
+                .rstudio{
+                    width: 40%;
+                }
+                .microsoft{
+                    width: 90%;
+                }
+                .visualstudio{
+                    width: 50%;
+                }
+                .siteground{
+                    width: 60%;
+                }
+                .mongodb{
+                    width: 30%;
                 }
             }
         }
@@ -975,6 +1003,7 @@ section{
         }
         .course-description{
             padding: 2rem;
+            color: var(--color-grey2) ;
         }
         &:hover{
             cursor: default;
